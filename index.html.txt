@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>John von Neumann</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <h1>Von Neumann</h1>
+    <ul>
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#historia">História</a></li>
+      <li><a href="#contribuicoes">Contribuições</a></li>
+      <li><a href="#timeline">Linha do Tempo</a></li>
+      <li><a href="#curiosidades">Curiosidades</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <h2>John von Neumann</h2>
+  <p>Um dos maiores gênios da computação moderna</p>
+  <button onclick="scrollToSection('historia')">Saiba mais</button>
+</section>
+
+<section id="historia">
+  <h2>História</h2>
+  <p>John von Neumann foi um matemático brilhante que contribuiu para diversas áreas, incluindo física, economia e principalmente computação.</p>
+</section>
+
+<section id="contribuicoes">
+  <h2>Contribuições</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Arquitetura de Computadores</h3>
+      <p>Base dos computadores atuais.</p>
+    </div>
+    <div class="card">
+      <h3>Teoria dos Jogos</h3>
+      <p>Fundamental na economia moderna.</p>
+    </div>
+  </div>
+</section>
+
+<section id="timeline">
+  <h2>Linha do Tempo</h2>
+  <ul>
+    <li>1903 - Nascimento</li>
+    <li>1945 - Arquitetura de computadores</li>
+    <li>1957 - Falecimento</li>
+  </ul>
+</section>
+
+<section id="curiosidades">
+  <h2>Curiosidades</h2>
+  <p>Ele tinha memória fotográfica e resolvia cálculos absurdamente rápido.</p>
+</section>
+
+<footer>
+  <p>Site criado por Be 🚀</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

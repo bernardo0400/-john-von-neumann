@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: #020617;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#0f172a, #020617);
+}
+
+button {
+  padding: 10px 20px;
+  background: cyan;
+  border: none;
+  cursor: pointer;
+}
+
+section {
+  padding: 100px 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+}
